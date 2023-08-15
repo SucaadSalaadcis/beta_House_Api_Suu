@@ -51,6 +51,6 @@ app.use("/companyInfo",companyInforoute)
 app.use("/homeSetting",homeSettingroute)
 app.use("/ourClient",ourClientRoute)
 app.use("/gallery",galleryRoute)
-app.use("/service",AuthenticateRoute(["Admin"]),serviceRoute)
+app.use("/service",serviceRoute)
 
 module.exports = app;
